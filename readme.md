@@ -27,7 +27,7 @@
 
     ```
     docker build -t hello-world:latest .
-    docker tag hello-world:latest <account_id>.dkr.ecr.us-east-1.amazonaws.com/hello-world:latest
+    docker tag hello-world:latest <account_id>.dkr.ecr.<region>.amazonaws.com/hello-world:latest
 
     ```
     2. Create ECR repository and Push the image

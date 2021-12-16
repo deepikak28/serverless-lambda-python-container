@@ -4,7 +4,7 @@ region=ap-southeast-2
 local_image=hello-world:latest
 aws_account=<aws_account_id>
 ecr_image=hello-world:latest
-profile=hvrinternal-slsadmin
+profile=<aws_profile>
 
 docker build -t $local_image .
 
